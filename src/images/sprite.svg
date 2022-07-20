@@ -1,0 +1,47 @@
+<svg
+  aria-hidden="true"
+  style="position: absolute; width: 0; height: 0; overflow: hidden;"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<defs>
+<symbol id="burgerMenu" viewBox="0 0 32 32">
+<path
+        fill="#f3f3e7"
+        style="fill: var(--color1, #f3f3e7)"
+        d="M5.926 0h20.148c3.273 0 5.926 2.653 5.926 5.926v20.148c0 3.273-2.653 5.926-5.926 5.926h-20.148c-3.273 0-5.926-2.653-5.926-5.926v-20.148c0-3.273 2.653-5.926 5.926-5.926z"
+      />
+<path
+        fill="#2d2a26"
+        style="fill: var(--color2, #2d2a26); stroke: var(--color2, #2d2a26)"
+        stroke="#2d2a26"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="0.5926"
+        d="M8.889 12.741h14.222c0.164 0 0.296-0.133 0.296-0.296s-0.133-0.296-0.296-0.296h-14.222c-0.164 0-0.296 0.133-0.296 0.296s0.133 0.296 0.296 0.296z"
+      />
+<path
+        fill="#2d2a26"
+        style="fill: var(--color2, #2d2a26); stroke: var(--color2, #2d2a26)"
+        stroke="#2d2a26"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="0.5926"
+        d="M8.889 16.296h14.222c0.164 0 0.296-0.133 0.296-0.296s-0.133-0.296-0.296-0.296h-14.222c-0.164 0-0.296 0.133-0.296 0.296s0.133 0.296 0.296 0.296z"
+      />
+<path
+        fill="#2d2a26"
+        style="fill: var(--color2, #2d2a26); stroke: var(--color2, #2d2a26)"
+        stroke="#2d2a26"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="0.5926"
+        d="M8.889 19.852h14.222c0.164 0 0.296-0.133 0.296-0.296s-0.133-0.296-0.296-0.296h-14.222c-0.164 0-0.296 0.133-0.296 0.296s0.133 0.296 0.296 0.296z"
+      />
+</symbol>
+</defs>
+</svg>
