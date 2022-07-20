@@ -1,0 +1,40 @@
+.about {
+    max-width: 375px;
+    padding-top: 31px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    background: $color-main;
+}
+.about__title {
+    color: $color-white;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+    line-height: 105%;
+}
+.title__text-one {
+    font-family: $font-span;
+    color: $title-orange;
+}
+.title__text-two {
+    font-family: $font-span;
+    color: $background-btn-check;
+}
+.title__text-three {
+    font-family: $font-span;
+    color: $button-background;
+}
+.title__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: $color-white;
+    margin-bottom: 20px;
+}
+.about__svg {
+    margin-left: 18px;
+    width: 309px;
+    height: 373px;
+}

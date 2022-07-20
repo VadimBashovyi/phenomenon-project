@@ -33,3 +33,50 @@
     pointer-events: none;
     visibility: hidden;
 }
+.button-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    margin: auto;
+    width: 155px;
+    height: 53px;
+    padding: 15px 36px;
+    background: $button-background;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px $color-main;
+    margin-bottom: 10px;
+}
+.button-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 105px;
+    width: 160px;
+    height: 57px;
+    padding: 16px 27px;
+    background: $background-btn-check;
+    border-radius: 10px;
+    border: 1px solid $color-main;
+    box-shadow: 4px 4px 0px $color-main;
+    margin-bottom: 41px;
+}
+.button-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    width: 159px;
+    height: 53px;
+    padding: 16px 36px;
+    background: $background-btn-check;
+    border-radius: 10px;
+    border: 1px solid $color-main;
+    box-shadow: 4px 4px 0px $color-white;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,46 @@
+.certificate {
+    padding-bottom: 14px;
+    // padding-left: 29px;
+    padding-right: 38px;
+    background-color: $color-white;
+}
+
+.title {
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 95%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.title__svg {
+    fill: none;
+    position: absolute;
+    width: 170px;
+    height: 48px;
+    top: -40%;
+    left: 27%;
+}
+.certificate__title {
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 105%;
+    text-align: center;
+    letter-spacing: -3px;
+    margin-bottom: 18px;
+}
+.certificate__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-bottom: 59px;
+}
+.bar {
+    position: relative;
+}

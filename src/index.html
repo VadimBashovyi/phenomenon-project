@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="fonts/avenirNext/stylesheet.css"
       rel="stylesheet"
@@ -32,8 +38,23 @@
                 class="line-move__images"
                 src="./images/flagUs.png"
                 alt="boxImg"
-              />We ship inside the US only</span
-            >
+              />We ship inside the US only
+              <img
+                class="line-move__images"
+                src="./images/flagUs.png"
+                alt="boxImg"
+              />We ship inside the US only
+              <img
+                class="line-move__images"
+                src="./images/flagUs.png"
+                alt="boxImg"
+              />We ship inside the US only
+              <img
+                class="line-move__images"
+                src="./images/flagUs.png"
+                alt="boxImg"
+              />We ship inside the US only
+            </span>
           </h3>
         </div>
         <div class="btn-nav">
@@ -53,11 +74,115 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- секція герой -->
+      <section class="hero">
+        <div class="hero__overlay">
+          <div class="container">
+            <h2 class="hero__top-title">Emphasize PrEP</h2>
+            <h1 class="hero__title">
+              Replace awkward lab visits with at-home
+              <span class="title__blue">STI testing</span> and
+              <span class="title__orange">treatment</span>.
+            </h1>
+            <button type="button" class="button-main">Get started</button>
+            <img class="hero__img" src="./images/heroBoys.jpg" alt="heroBoys" />
+          </div>
+        </div>
+      </section>
+      <!-- секція герой -->
+
+      <!-- секція компанії -->
+      <section class="company">
+        <div class="container">
+          <ul class="company__list">
+            <li class="list__item">
+              <svg class="item__svg" aria-label="Назва компанії">
+                <use href="./images/sprite.svg#blue-crosshield"></use>
+              </svg>
+            </li>
+            <li class="list__item">
+              <svg class="item__svg" aria-label="Назва компанії">
+                <use href="./images/sprite.svg#unitedhealthcare"></use>
+              </svg>
+            </li>
+            <li class="list__item">
+              <svg class="item__svg" aria-label="Назва компанії">
+                <use href="./images/sprite.svg#cigna"></use>
+              </svg>
+            </li>
+            <li class="list__item">
+              <svg class="item__svg" aria-label="Назва компанії">
+                <use href="./images/sprite.svg#aetna"></use>
+              </svg>
+            </li>
+          </ul>
+          <button type="button" class="button-check">Check insurance</button>
+        </div>
+      </section>
+      <!-- секція компанії -->
+
+      <!-- секція про нас  -->
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">
+            Our mission is simple: to make healthcare
+            <span class="title__text-one">accessible</span>,
+            <span class="title__text-two">affordable</span>, and
+            <span class="title__text-three">easy to use</span>.
+          </h2>
+          <p class="title__text">
+            STI rates are hitting record numbers, yet testing is lacking. We
+            want to fix this by providing a more discreet and convenient way of
+            maintaining sexual health for you. The easier it is to access and
+            learn about your health, the easier it is for you to take meaningful
+            action, whenever you need it.
+          </p>
+          <button class="button-about">Get started</button>
+          <svg class="about__svg" aria-label="Назва компанії">
+            <use href="./images/sprite.svg#frame"></use>
+          </svg>
+        </div>
+      </section>
+      <!-- секція про нас  -->
+
+      <!-- секція слайдер  -->
+      <section class="slider">
+        <div class="slider__overlay">
+          <div class="container">
+            <h3 class="slider__title-text">Emphasize PrEP</h2>
+              <h2 class="slider__title">Book an appointment <span class="slider__span">with a specialist</span></h2>
+              <p class="slider__text">
+                Order one of our CLIA kits from the comfort of your own home. Kits can include everything you need to test for Hep B&C, Trich, Chlamydia, HIV, and more.
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- секція слайдер  -->
+
+      <!-- секція листи  -->
+      <section class="certificate">
+        <div class="container">
+          <div>
+            <h3 class="title">available <br> now</h3>
+          <svg class="title__svg" aria-label="верхній бордер текста">
+            <use href="./images/sprite.svg#rectangle"></use>
+          </svg>
+          </div>
+
+          <h2 class="certificate__title">PrEP Kit</h2>
+          <p class="certificate__text">HIV 1&2, Hep B, & Liver function</p>
+          
+        </div>
+      </section>
+
+      <!-- секція листи  -->
+    </main>
     <footer></footer>
     <!-- MODAL WINDOW -->
     <div class="modal-window is-hidden" data-menu>
-      <h2>Open Modal Window</h2>
+      <!-- <h2>Open Modal Window</h2> -->
     </div>
     <script type="module" src="./index.js"></script>
     <script src="./js/modal.js"></script>

@@ -1,0 +1,39 @@
+.slider {
+}
+.slider__span {
+    font-family: $font-span;
+    font-weight: 700;
+    font-size: 36px;
+    color: $background-btn-check;
+}
+.slider__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 105%;
+    letter-spacing: -3px;
+    color: $color-white-header;
+    margin-bottom: 15px;
+}
+.slider__text {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: $color-white-header;
+}
+.slider__title-text {
+    margin-bottom: 20px;
+    color: $color-white-header;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.slider__overlay {
+    padding-top: 92px;
+    padding-left: 18px;
+    max-width: 375px;
+    height: 723px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/src/images/oneSlider.jpg);
+}
