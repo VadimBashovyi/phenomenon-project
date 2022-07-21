@@ -1,0 +1,14 @@
+.subscription-email {
+    background-color: $color-white;
+    border: 1px solid $color-main;
+    max-width: 375px;
+}
+.subscription-overlay {
+    background: $background-subscription;
+}
+.img-subscription {
+    background-color: inherit;
+    width: 284px;
+    height: 94px;
+    margin-top: 65px;
+}
