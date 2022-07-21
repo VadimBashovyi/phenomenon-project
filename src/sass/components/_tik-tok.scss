@@ -1,0 +1,33 @@
+.tik-tok {
+    max-width: 375px;
+}
+.tik-tok__overlay {
+    background-image: url(/src/images/tiktokBackg.jpg);
+    padding-top: 41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tik-tok__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -3px;
+    margin: auto;
+    color: $color-white-header;
+}
+.tik-tok__img {
+    border: none;
+    margin: auto;
+}
+.svg-icon-tik-tok {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.tik-tok__title {
+    margin-bottom: 27px;
+}

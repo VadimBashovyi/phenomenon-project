@@ -1,0 +1,41 @@
+.footer {
+    max-width: 375px;
+}
+.footer__overlay {
+    padding-top: 112px;
+    padding-bottom: 25px;
+    background-color: $color-main;
+}
+.footer__title {
+    color: $color-white-header;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 232%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.footer__list {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: 28px;
+}
+
+.footer .list__item {
+    color: $color-white-header;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.footer__text {
+    margin-top: 22px;
+    color: $color-footer;
+    text-align: center;
+    align-items: center;
+}
+.footer .form {
+    margin-bottom: 26px;
+}
+.form-border {
+    border-bottom: 1px solid $color-border;
+}

@@ -2,13 +2,71 @@
     background-color: $color-white;
     border: 1px solid $color-main;
     max-width: 375px;
-}
-.subscription-overlay {
+    padding-top: 65px;
+    padding-bottom: 66px;
     background: $background-subscription;
 }
+// .subscription-overlay {
+//     background: $background-subscription;
+// }
 .img-subscription {
-    background-color: inherit;
+    margin-left: 46px;
+    margin-bottom: 15px;
     width: 284px;
     height: 94px;
-    margin-top: 65px;
+}
+.subscription-email__text {
+    display: block;
+    font-family: $main-font;
+    font-weight: 700;
+    color: $color-span;
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+}
+.subscription-email__title {
+    font-family: $font-span;
+    font-weight: 700;
+    color: $color-main;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -3px;
+    text-align: center;
+    align-items: center;
+    margin-left: 21px;
+    margin-bottom: 3px;
+    margin-right: 19px;
+}
+.title__about {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    line-height: 160%;
+    display: block;
+    margin-left: 29px;
+    margin-right: 27px;
+    margin-bottom: 17px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    max-width: 339px;
+    margin-left: 18px;
+    margin-right: 18px;
+    position: relative;
+}
+.form-input {
+    width: 100%;
+    display: block;
+    background: $color-white;
+    border-radius: 10px;
+    height: 56px;
+    padding-left: 5px;
+    &:focus,
+    &:hover {
+        border: 2px solid #1ce08f;
+        outline: none;
+    }
 }

@@ -7,13 +7,19 @@
     border-radius: 10px;
     border: 1px solid $color-main;
     box-shadow: 4px 4px 0px $color-main;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
 }
 .get-kit__images {
     border: none;
     background-color: transparent;
     width: 20px;
     height: 20px;
-    margin-left: 9px;
 }
 .btn-nav__burger-menu {
     width: 54px;
@@ -22,11 +28,20 @@
     padding: 0;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
 }
 .burger-menu__icon {
     width: 54px;
     height: 54px;
     fill: $color-main;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
     opacity: 0;
@@ -36,16 +51,25 @@
 .button-main {
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-size: 16px;
     margin: auto;
-    width: 155px;
     height: 53px;
     padding: 15px 36px;
     background: $button-background;
     border-radius: 10px;
     box-shadow: 4px 4px 0px $color-main;
     margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    &:hover {
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
 }
 .button-check {
     display: flex;
@@ -55,7 +79,6 @@
     font-size: 14px;
     line-height: 19px;
     margin-left: 105px;
-    width: 160px;
     height: 57px;
     padding: 16px 27px;
     background: $background-btn-check;
@@ -63,6 +86,13 @@
     border: 1px solid $color-main;
     box-shadow: 4px 4px 0px $color-main;
     margin-bottom: 41px;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
 }
 .button-about {
     display: flex;
@@ -79,4 +109,29 @@
     border: 1px solid $color-main;
     box-shadow: 4px 4px 0px $color-white;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
+}
+.form-btn {
+    width: 120px;
+    height: 56px;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 23px;
+    border: 1px solid $color-main;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    left: 65%;
+    background: $background-btn-check;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        background-color: $title-orange;
+    }
 }

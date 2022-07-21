@@ -1,0 +1,35 @@
+.spotify {
+    border: 1px solid $color-main;
+    max-width: 375px;
+    padding-top: 31px;
+}
+.spotify__img {
+    width: 300px;
+    height: 204px;
+    display: flex;
+    margin: auto;
+}
+.svg-icon-spotify {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+}
+.spotify__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 95%;
+    letter-spacing: -3px;
+    margin-bottom: 17px;
+    margin-left: 18px;
+    margin-right: 149px;
+}
+.spotify__title-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    align-items: center;
+    letter-spacing: -0.02em;
+    margin-left: 18px;
+    margin-bottom: 13px;
+}

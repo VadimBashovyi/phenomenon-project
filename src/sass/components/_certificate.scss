@@ -5,6 +5,22 @@
     border: 1px solid $color-main;
     max-width: 375px;
 }
+.card {
+    top: 30px;
+    position: sticky;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+@for $i from 1 through 8 {
+    .card:nth-child(#{$i}n) {
+        top: $i * 20px;
+    }
+}
 
 .title {
     align-items: center;
