@@ -1,7 +1,8 @@
 .header {
-    max-width: 375px;
     background-color: $color-white;
-    border-bottom: 1px solid $color-main;
+    // @media screen and (min-width: 1200px) {
+    //     max-width: 1440px;
+    // }
 }
 .line-move {
     display: flex;
@@ -21,6 +22,37 @@
     height: 15px;
     margin-right: 5px;
     margin-left: 5px;
+}
+@media screen and (min-width: 1200px) {
+    @-webkit-keyframes scroll {
+        0% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+        100% {
+            -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+        }
+    }
+    @-moz-keyframes scroll {
+        0% {
+            -moz-transform: translate(0, 0);
+            transform: translate(0, 0);
+        }
+        100% {
+            -moz-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+        }
+    }
+    @keyframes scroll {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(-100%, 0);
+        }
+    }
 }
 
 @-webkit-keyframes scroll {
@@ -61,10 +93,14 @@
 }
 
 .marquee span {
-    // padding-left: 100%;
     -webkit-animation: scroll 6s infinite linear;
     -moz-animation: scroll 6s infinite linear;
     animation: scroll 6s infinite linear;
+    @media screen and (min-width: 1200px) {
+        -webkit-animation: scroll 3s infinite linear;
+        -moz-animation: scroll 3s infinite linear;
+        animation: scroll 3s infinite linear;
+    }
 }
 .btn-nav {
     display: flex;

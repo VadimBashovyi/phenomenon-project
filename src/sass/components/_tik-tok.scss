@@ -1,5 +1,8 @@
 .tik-tok {
-    max-width: 375px;
+    @media screen and (min-width: 480px) {
+        width: 375px;
+        margin: 0 auto;
+    }
 }
 .tik-tok__overlay {
     background-image: url(/src/images/tiktokBackg.jpg);

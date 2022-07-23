@@ -3,7 +3,10 @@
     padding-bottom: 14px;
     background-color: $color-white;
     border: 1px solid $color-main;
-    max-width: 375px;
+    @media screen and (min-width: 480px) {
+        width: 375px;
+        margin: 0 auto;
+    }
 }
 .coming-orange .title__svg {
     // fill: orange;

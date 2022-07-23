@@ -3,7 +3,10 @@
 .hero__overlay {
     padding-top: 43px;
     background: $background-hero;
-    max-width: 375px;
+    @media screen and (min-width: 480px) {
+        width: 375px;
+        margin: 0 auto;
+    }
 }
 .hero__top-title {
     color: $color-main;

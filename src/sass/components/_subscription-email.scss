@@ -1,10 +1,13 @@
 .subscription-email {
     background-color: $color-white;
     border: 1px solid $color-main;
-    max-width: 375px;
     padding-top: 65px;
     padding-bottom: 66px;
     background: $background-subscription;
+    @media screen and (min-width: 480px) {
+        width: 375px;
+        margin: 0 auto;
+    }
 }
 // .subscription-overlay {
 //     background: $background-subscription;
