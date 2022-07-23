@@ -3,13 +3,6 @@
     padding-bottom: 14px;
     background-color: $color-white;
     border: 1px solid $color-main;
-    @media screen and (min-width: 480px) {
-        width: 375px;
-        margin: 0 auto;
-    }
-}
-.coming-orange .title__svg {
-    // fill: orange;
 }
 .coming-orange .svg-icon-cert-urine {
     top: 72.03%;

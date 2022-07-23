@@ -4,6 +4,7 @@
     height: 53px;
     margin-left: auto;
     padding: 16px 27px;
+    margin-right: 17px;
     border-radius: 10px;
     border: 1px solid $color-main;
     box-shadow: 4px 4px 0px $color-main;
@@ -14,6 +15,9 @@
         -ms-transform: scale(0.9) translateX(-7px);
         transform: scale(0.9) translateX(-7px);
     }
+    @media screen and (min-width: 1440px) {
+        margin-right: 8px;
+    }
 }
 .get-kit__images {
     border: none;
@@ -21,10 +25,29 @@
     width: 20px;
     height: 20px;
 }
+.user-btn {
+    display: none;
+    @media screen and (min-width: 1440px) {
+        height: 53px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border: 1px solid $color-main;
+        box-shadow: 4px 4px 0px $color-main;
+        cursor: pointer;
+        margin-right: 120px;
+        transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            -webkit-transform: scale(0.9) translateX(-7px);
+            -ms-transform: scale(0.9) translateX(-7px);
+            transform: scale(0.9) translateX(-7px);
+        }
+    }
+}
 .btn-nav__burger-menu {
     width: 54px;
     height: 54px;
     display: block;
+    margin-left: 18px;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -34,6 +57,9 @@
         -webkit-transform: scale(0.9) translateX(-7px);
         -ms-transform: scale(0.9) translateX(-7px);
         transform: scale(0.9) translateX(-7px);
+    }
+    @media screen and (min-width: 1440px) {
+        display: none;
     }
 }
 .burger-menu__icon {
@@ -70,6 +96,9 @@
         -ms-transform: scale(0.9) translateX(-7px);
         transform: scale(0.9) translateX(-7px);
     }
+    @media screen and (min-width: 1440px) {
+        margin-left: 120px;
+    }
 }
 .button-check {
     display: flex;
@@ -92,6 +121,10 @@
         -webkit-transform: scale(0.9) translateX(-7px);
         -ms-transform: scale(0.9) translateX(-7px);
         transform: scale(0.9) translateX(-7px);
+    }
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 0px;
+        margin-left: 72px;
     }
 }
 .button-about {

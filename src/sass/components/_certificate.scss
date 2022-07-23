@@ -3,10 +3,6 @@
     padding-bottom: 14px;
     background-color: $color-white;
     border: 1px solid $color-main;
-    @media screen and (min-width: 480px) {
-        width: 375px;
-        margin: 0 auto;
-    }
 }
 .card {
     top: 30px;
@@ -19,11 +15,6 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
-@for $i from 1 through 8 {
-    .card:nth-child(#{$i}n) {
-        top: $i * 20px;
-    }
-}
 
 .title {
     align-items: center;
@@ -32,7 +23,6 @@
     line-height: 95%;
     text-align: center;
     text-transform: uppercase;
-    // margin-top: 10px;
     letter-spacing: 0.5px;
 }
 .title__svg {
