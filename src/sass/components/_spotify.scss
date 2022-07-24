@@ -1,18 +1,40 @@
 .spotify {
-    border: 1px solid $color-main;
-    padding-top: 31px;
+    @media screen and (max-width: 1439px) {
+        border: 1px solid $color-main;
+        padding-top: 31px;
+    }
+    @media screen and (max-width: 1439px) {
+    }
+}
+.spotify .container {
+    @media screen and (min-width: 1440px) {
+        width: 1440px;
+        display: flex;
+    }
 }
 .spotify__img {
     width: 300px;
     height: 204px;
     display: flex;
     margin: auto;
+    @media screen and (min-width: 1440px) {
+        width: 529px;
+        height: 361px;
+        margin-top: 99px;
+        margin-left: 95px;
+    }
 }
 .svg-icon-spotify {
     width: 44px;
     height: 44px;
     margin-bottom: 11px;
     margin-left: 18px;
+    @media screen and (min-width: 1440px) {
+        margin-left: 85px;
+        width: 85px;
+        height: 85px;
+        margin-bottom: 28px;
+    }
 }
 .spotify__title {
     font-weight: 700;
@@ -22,6 +44,11 @@
     margin-bottom: 17px;
     margin-left: 18px;
     margin-right: 149px;
+    @media screen and (min-width: 1440px) {
+        margin-left: 85px;
+        font-size: 70px;
+        margin-bottom: 29px;
+    }
 }
 .spotify__title-text {
     font-weight: 500;
@@ -31,4 +58,9 @@
     letter-spacing: -0.02em;
     margin-left: 18px;
     margin-bottom: 13px;
+    @media screen and (min-width: 1440px) {
+        margin-left: 85px;
+        margin-bottom: 41px;
+        font-size: 22px;
+    }
 }

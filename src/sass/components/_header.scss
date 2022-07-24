@@ -98,9 +98,9 @@
     -moz-animation: scroll 6s infinite linear;
     animation: scroll 6s infinite linear;
     @media screen and (min-width: 1440px) {
-        -webkit-animation: scroll 3s infinite linear;
-        -moz-animation: scroll 3s infinite linear;
-        animation: scroll 3s infinite linear;
+        -webkit-animation: scroll 10s infinite linear;
+        -moz-animation: scroll 10s infinite linear;
+        animation: scroll 10s infinite linear;
     }
 }
 .btn-nav {
@@ -136,4 +136,13 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: rgb(209, 84, 190);
+        -webkit-transform: scale(0.9) translateX(-7px);
+        -ms-transform: scale(0.9) translateX(-7px);
+        transform: scale(0.9) translateX(-7px);
+    }
 }

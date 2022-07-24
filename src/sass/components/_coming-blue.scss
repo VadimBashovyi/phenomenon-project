@@ -2,5 +2,11 @@
     padding-top: 10px;
     padding-bottom: 14px;
     background-color: $color-white;
-    border: 1px solid $color-main;
+    @media screen and (max-width: 1439px) {
+        border: 1px solid $color-main;
+    }
+    @media screen and (min-width: 1440px) {
+        border-bottom: 1px solid $color-main;
+        border-right: 1px solid $color-main;
+    }
 }

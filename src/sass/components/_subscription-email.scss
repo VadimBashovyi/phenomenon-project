@@ -1,18 +1,19 @@
 .subscription-email {
-    background-color: $color-white;
-    border: 1px solid $color-main;
+}
+.subscription-email__overlay {
+    background: $background-subscription;
     padding-top: 65px;
     padding-bottom: 66px;
-    background: $background-subscription;
 }
-// .subscription-overlay {
-//     background: $background-subscription;
-// }
+
 .img-subscription {
     margin-left: 46px;
     margin-bottom: 15px;
     width: 284px;
     height: 94px;
+    @media screen and (min-width: 1440px) {
+        margin: auto;
+    }
 }
 .subscription-email__text {
     display: block;
@@ -51,10 +52,13 @@
 .form {
     display: flex;
     align-items: center;
-    max-width: 339px;
+    width: 339px;
     margin-left: 18px;
     margin-right: 18px;
     position: relative;
+    @media screen and (min-width: 1440px) {
+        margin: auto;
+    }
 }
 .form-input {
     width: 100%;

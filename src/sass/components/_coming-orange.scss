@@ -2,7 +2,9 @@
     padding-top: 10px;
     padding-bottom: 14px;
     background-color: $color-white;
-    border: 1px solid $color-main;
+    border-top: 1px solid $color-main;
+    border-right: 1px solid $color-main;
+    border-bottom: 1px solid $color-main;
 }
 .coming-orange .svg-icon-cert-urine {
     top: 72.03%;

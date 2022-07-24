@@ -28,6 +28,7 @@
 .user-btn {
     display: none;
     @media screen and (min-width: 1440px) {
+        display: flex;
         height: 53px;
         padding: 16px 16px;
         border-radius: 10px;
@@ -166,5 +167,26 @@
     transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
         background-color: $title-orange;
+    }
+}
+.footer__right-info__btn {
+    display: none;
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        width: 140px;
+        height: 53px;
+        padding: 16px 27px;
+        margin-right: 17px;
+        border-radius: 10px;
+        border: 1px solid $color-white-header;
+        box-shadow: 4px 4px 0px $color-white-header;
+        background-color: $button-background;
+        cursor: pointer;
+        transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            -webkit-transform: scale(0.9) translateX(-7px);
+            -ms-transform: scale(0.9) translateX(-7px);
+            transform: scale(0.9) translateX(-7px);
+        }
     }
 }
