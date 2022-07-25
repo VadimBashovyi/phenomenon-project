@@ -48,8 +48,10 @@
             <use href="./images/sprite.svg#burgerMenu"></use>
           </svg>
         </button>
+
+
         <div class="menu-container">
-          <!-- <button class="close-modal">X</button> -->
+
           <nav class="navigation">
             <ul class="navigation__list">
               <li class="navigation__list-item">
@@ -67,6 +69,8 @@
             </ul>
           </nav>
         </div>
+
+
         <button type="button" class="btn-nav__get-kit">
           Get a Kit
           <img class="get-kit__images" src="./images/box.png" alt="boxImg" />
@@ -426,20 +430,33 @@
   </footer>
   <!-- FOOTER    -->
   <!-- MODAL WINDOW -->
-  <!-- <div class="backdrop is-hidden" data-menu>
-    <div class="modal-btn modal-window">
-      <button class="modal-window__close">
-        <svg class="svg-icon-tik-tok">
-          <use href="./images/sprite.svg#tiktok"></use>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal-btn modal-window" data-menu>
+      <button class="close-modal" data-menu-button-close>
+        <svg class="close-modal__svg" aria-label="Мобильное меню">
+          <use href="./images/sprite.svg#closeModal"></use>
         </svg>
       </button>
-      <button>
-        <svg class="svg-icon-tik-tok">
-          <use href="./images/sprite.svg#tiktok"></use>
-        </svg>
-      </button>
+      <nav>
+        <ul class="modal-btn__list">
+          <li class="modal-btn__list-item">
+            <a class="modal-btn__link">About</a>
+          </li>
+          <li class="modal-btn__list-item">
+            <a class="modal-btn__link">How it works</a>
+          </li>
+          <li class="modal-btn__list-item">
+            <a class="modal-btn__link">Blog</a>
+          </li>
+        </ul>
+        <button class="modal-btn__user-btn">
+          <svg class="user-svg" aria-label="Кнопка користувача">
+            <use href="./images/sprite.svg#user"></use>
+          </svg>
+        </button>
+      </nav>
     </div>
-  </div> -->
+  </div>
   <script type="module" src="./index.js"></script>
   <script src="./js/modal.js"></script>
 </body>

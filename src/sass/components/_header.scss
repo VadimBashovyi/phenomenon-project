@@ -115,6 +115,7 @@
         display: block;
     }
 }
+
 .navigation {
     display: flex;
     align-items: center;
@@ -141,8 +142,5 @@
     &:hover,
     &:focus {
         color: rgb(209, 84, 190);
-        -webkit-transform: scale(0.9) translateX(-7px);
-        -ms-transform: scale(0.9) translateX(-7px);
-        transform: scale(0.9) translateX(-7px);
     }
 }
